@@ -8,6 +8,7 @@ public class TicTacToe {
     private static Scanner input = new Scanner(System.in);
     private static Random rand = new Random(); //random sets for AI
 
+    
     public static void main(String[] args) throws Exception {
         while(!GameOver()){
             System.out.println("Current board: ");
